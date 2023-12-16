@@ -1,0 +1,39 @@
+body{
+    background-image: url('Images/background.gif');
+    background-size: cover;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'VT323', monospace;
+    color: whitesmoke;
+}
+.navbar{
+    margin: 0;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.navbar div {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+.section {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section div {
+    flex: 1;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:visited{
+    color: whitesmoke;
+}
+a:hover{
+    text-decoration: underline ;
+}
