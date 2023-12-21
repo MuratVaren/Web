@@ -4,6 +4,12 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
+    text-align: center;
+}
+.imgProfile{
+    display: block;
+    width: 300px;
+    margin: 50px auto;
 }
 .navbar{
     height: 100px;
@@ -104,4 +110,38 @@ a:hover{
     text-shadow: 0 0 0.8rem #D02121;
     text-decoration: underline ;
 }
+@media screen and (max-width: 480px) {
 
+    body{
+        font-size: 18px;
+    }
+    .section{
+        width: auto;
+        margin: 15px;
+    }
+    .languages{
+        flex-direction: column;
+    }
+    .languages div{
+        height: 200px;
+        margin: 20px
+    }
+    .jobSection{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .imgJob{
+        width: 250px;
+        height: 130px;
+    }
+    .TableSkills{
+        width: 400px;
+    }
+    footer p {
+        margin: 20px;
+    }
+    footer a{
+        margin: 20px;
+    }
+}
