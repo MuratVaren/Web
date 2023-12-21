@@ -28,6 +28,7 @@ body{
     flex: 1;
 }
 a{
+    font-size: 64px;
     text-decoration: none;
     color: inherit;
 }
@@ -36,4 +37,21 @@ a:visited{
 }
 a:hover{
     text-decoration: underline ;
+}
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 28px;
+    }
+    .navbar{
+        margin-top: 150px;
+    }
+    .navbar div:first-child{
+        display: none;
+    }
+    .section div:nth-child(2){
+        display: none;
+    }
+    a{
+        font-size: 40px;
+    }
 }
