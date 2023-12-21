@@ -3,7 +3,7 @@ body{
     color:#FFFFFF ;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
 }
 .imgProfile{
@@ -25,6 +25,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 24px;
 }
 main{
     display: flex;
@@ -42,6 +43,9 @@ main{
 }
 .section h3:hover{
     text-shadow: 0 0 0.6rem #D02121;;
+}
+.programmingView:nth-child(2){
+    display: none;
 }
 .TableSkills{
     margin: auto;
@@ -119,6 +123,31 @@ a:hover{
     text-shadow: 0 0 0.8rem #D02121;
     text-decoration: underline ;
 }
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+
+    .section{
+        width: 600px;
+    }
+    .TableSkills{
+        width: 500px;
+    }
+    .imgJob{
+        width: 350px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 700px) {
+
+    .section{
+        width: 400px;
+    }
+    .TableSkills{
+        width: 350px;
+    }
+    .imgJob{
+        width: 250px;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     body{
@@ -144,8 +173,11 @@ a:hover{
         width: 250px;
         height: 130px;
     }
-    .TableSkills{
-        width: 300px;
+    .programmingView:nth-child(1){
+        display: none;
+    }
+    .programmingView:nth-child(2){
+        display: block;
     }
     footer p {
         margin: 20px;
