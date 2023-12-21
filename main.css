@@ -43,10 +43,13 @@ a:hover{
         font-size: 28px;
     }
     .navbar{
-        margin-top: 150px;
+        margin-top: 75px;
     }
     .navbar div:first-child{
         display: none;
+    }
+    .section{
+        margin: 0;
     }
     .section div:nth-child(2){
         display: none;
