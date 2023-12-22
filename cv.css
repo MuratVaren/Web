@@ -162,7 +162,7 @@ a:hover{
     }
     .section{
         width: 350px;
-        margin: 15px;
+        margin: auto;
     }
     .languages{
         flex-direction: column;
