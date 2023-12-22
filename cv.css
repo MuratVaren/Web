@@ -68,8 +68,11 @@ tr:nth-child(even){
     flex: 1;
 }
 .icon{
-    width: 50px;
+    width: 70px;
     filter: invert(1);
+}
+.icon:hover{
+    filter: invert(0);
 }
 .jobSection{
     display: flex;
@@ -153,8 +156,12 @@ a:hover{
     body{
         font-size: 18px;
     }
+    .navbar {
+        font-size: 20px;
+        margin: 10px;
+    }
     .section{
-        width: auto;
+        width: 375px;
         margin: 15px;
     }
     .languages{
