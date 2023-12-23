@@ -172,12 +172,12 @@ a:hover{
         font-size: 18px;
     }
     .navbar {
-        font-size: 20px;
-        margin: 10px;
+        font-size: 18px;
     }
     .navbar a{
-        padding: 5px;
+        margin: 5px;
     }
+
     .section{
         width: 350px;
         margin: 20px auto;
