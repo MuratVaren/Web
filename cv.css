@@ -6,10 +6,13 @@ body{
     font-size: 18px;
     text-align: center;
 }
+.imgProfileContainer{
+    margin: auto;
+}
 .imgProfile{
     display: block;
     width: 300px;
-    margin: 25px auto;
+    margin: 30px auto;
     transition-duration: 0.6s;
 }
 .imgProfile:hover{
@@ -145,6 +148,7 @@ a:hover{
         width: 620px;
         height: 300px;
     }
+
 }
 @media screen and (min-width: 480px) and (max-width: 700px) {
 
@@ -156,6 +160,9 @@ a:hover{
     }
     .imgJob{
         width: 420px;
+    }
+    .languages div{
+        margin: 15px 30px;
     }
 }
 

@@ -18,7 +18,7 @@ body{
     justify-content: space-evenly;
 }
 .section {
-    margin: 0px 20px;
+    margin: 0 20px;
     display: flex;
     justify-content: center;
     align-items: center;
