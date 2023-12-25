@@ -3,7 +3,7 @@ body{
     font-family: "Yu Mincho", serif;
 }
 .navbar{
-    background-color: lightgray;
+    background-color: darkgray;
     height: 80px;
     width: 100%;
     display: flex;
