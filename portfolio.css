@@ -18,17 +18,20 @@ main{
     margin: 50px 25px 25px 100px;
 }
 .section{
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto 50px auto;
+}
+.section:last-child{
+    margin-bottom: 100px;
 }
 .imgLogboek{
     display: block;
     margin: auto;
-    width: 800px;
+    width: 750px;
     transition-duration: 1.5s;
 }
 .imgLogboek:hover{
-    width: 1000px;
+    width: 850px;
 }
 .profileRoles{
     display: flex ;
