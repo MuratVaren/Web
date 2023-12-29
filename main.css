@@ -10,7 +10,6 @@ body{
     margin: 0;
     height: 100px;
     display: flex;
-    align-items: center;
 }
 .navbar div {
     display: flex;
@@ -31,6 +30,7 @@ a{
     font-size: 64px;
     text-decoration: none;
     color: inherit;
+    margin: 20px;
 }
 a:visited{
     color: whitesmoke;
