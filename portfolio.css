@@ -33,6 +33,12 @@ main{
 .imgLogboek:hover{
     width: 850px;
 }
+.pdfLogboek{
+    width: 900px;
+    height: 850px;
+    display: block;
+    margin: auto;
+}
 .profileRoles{
     display: flex ;
     flex-direction: row;

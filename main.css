@@ -9,12 +9,11 @@ body{
 .navbar{
     margin: 0;
     height: 100px;
-    display: flex;
 }
 .navbar div {
     display: flex;
     flex: 1;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .section {
     margin: 0 20px;
